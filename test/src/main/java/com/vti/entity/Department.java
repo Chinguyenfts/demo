@@ -5,6 +5,8 @@ public class Department {
 
     private String departmentName;
 
+    private String address;
+
     public int getId() {
         return id;
     }
@@ -19,5 +21,21 @@ public class Department {
 
     public void setdepartmentName(String name) {
         this.departmentName = departmentName;
+    }
+
+    public String getDepartmentName() {
+        return departmentName;
+    }
+
+    public void setDepartmentName(String departmentName) {
+        this.departmentName = departmentName;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
     }
 }
