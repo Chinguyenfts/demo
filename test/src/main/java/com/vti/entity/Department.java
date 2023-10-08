@@ -3,7 +3,9 @@ package com.vti.entity;
 public class Department {
     private int id;
 
-    private String name;
+    private String departmentName;
+
+    private String address;
 
     public int getId() {
         return id;
@@ -13,11 +15,27 @@ public class Department {
         this.id = id;
     }
 
-    public String getName() {
-        return name;
+    public String getdepartmentName() {
+        return departmentName;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setdepartmentName(String name) {
+        this.departmentName = departmentName;
+    }
+
+    public String getDepartmentName() {
+        return departmentName;
+    }
+
+    public void setDepartmentName(String departmentName) {
+        this.departmentName = departmentName;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
     }
 }
